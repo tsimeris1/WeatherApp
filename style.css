@@ -1,0 +1,68 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: "Outfit", sans-serif;
+    background-color: #f0f0f0;
+}
+
+input, button {
+    font-family: "Outfit", sans-serif;
+}
+.container {
+   
+    background-color: salmon;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 75px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  
+}
+h2 {
+    text-align: center;
+    color: rgb(0, 255, 255);
+}
+.weather-info {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.weather-info p {
+    margin: 5px 15px;
+}
+.search-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search-input{
+    background-color:white;
+    padding: 10px;
+    border-radius:20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px;
+    outline: none;
+}
+.search-btn{
+    background-color: rgb(0, 226, 226);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all ease-in-out 0.25s;
+} 
+
+.search-btn:hover{
+    background-color: aqua;
+} 
+
+
+
+
+
